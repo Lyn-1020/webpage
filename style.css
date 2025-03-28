@@ -1,0 +1,43 @@
+/* Universal styles */
+{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif; /* Global font-family */
+}
+
+/* Navbar styles */
+.navbar {
+    height: 10vh; /* Height of the navbar set to 10% of viewport height */
+    padding-top: 0.5rem; /* Optional: Adjust padding for better alignment */
+    padding-bottom: 0.5rem; /* Optional: Adjust padding for better alignment */
+    display: flex;
+    align-items: center; /* Vertically center items in navbar */
+    justify-content: space-between; /* Space between brand and navbar items */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Optional: Adjust brand font size */
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 1rem; /* Optional: Space between navbar items */
+}
+
+.nav-item {
+    font-size: 1.1rem; /* Optional: Adjust font size for nav items */
+}
+
+/* Example for adding hover effect on nav links */
+.nav-link:hover {
+    color: #0056b3; /* Optional: Change color on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .navbar {
+        height: auto; /* Allow navbar to adjust height on smaller screens */
+    }
+}
