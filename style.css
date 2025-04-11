@@ -1,6 +1,5 @@
 /* Universal styles */
-{
-
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -40,4 +39,60 @@
     .navbar {
         height: auto; /* Allow navbar to adjust height on smaller screens */
     }
+}
+
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius:  0 !important;
+
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+    
+}
+
+.accordion-body {
+    border-left: 3px solid rgb(57, 149, 57);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9fa;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(57, 149, 57);
+    color: #FFF;
+}
+.accordion-button:hover {
+    background-color: rgb(57, 149, 57) ;
+    color: #FFF;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #41482B;
+} 
+
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a {
+    color: #DDB365 ;
 }
